@@ -1,0 +1,18 @@
+[run]
+include=
+  services/*
+omit =
+  $VIRTUAL_ENV/*
+  *apps.py,
+  *venv/*,
+  *migrations/*,
+  *settings*,
+  *tests/*,
+  *urls.py,
+  *wsgi/*,
+  *wsgi.py,
+  *manage.py
+  *__init__.py
+
+[report]
+show_missing = True
